@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img-wrapper {
+  margin: 10px auto; /* Adds space above the image */
+  height: 650px;
+  width: 100%;
+  /* position: relative; */
+}
+
+main {
+  margin: 5px auto;
+  padding-top: 10px;
+  border-radius: 20px;
+  height: 1000px;
+  width: 900px;
+  background-color: rgba(250, 21, 5, 0.728);
+  color: black;
+}
+#cap-img {
+  background-image: url("istockphoto-525029404-612x612.jpg");
+  height: 100%;
+  width: 95%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px auto; /* Centers the image */
+  border-radius: 20px;
+  position: relative;
+  color: white;
+}
+#alin {
+  position: absolute;
+  left: 0;
+  top: 550px;
+  background: rgb(12, 12, 203);
+  /* color: white; */
+  font-size: 25px;
+  font-weight: 200;
+  padding: 5px;
+}
+
+.sec {
+  margin: 10px 10x;
+  display: flex;
+  justify-content: space-between;
+}
+main .sec ul li {
+  list-style: none;
+  padding: 10px;
+  margin: 2px 20px;
+  font-size: 25px;
+  font-weight: 200;
+  /* color: rgb(247, 238, 238); */
+}
+
+.sec #resturent {
+  font-size: 30px;
+  color: rgb(12, 12, 12);
+  padding-right: 20px;
+}
+.sec #star p {
+  background-color: rgb(154, 230, 41);
+  padding: 2px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 25px;
+  font-weight: 200;
+  color: white;
+  margin-left: 58px;
+  width: 80px;
+}
+.sec .rt li:nth-child(3) p {
+  color: rgb(250, 245, 245);
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+hr {
+  width: 800px;
+  margin: 0 auto;
+}
+#sec2 {
+  margin: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#sec2 img {
+  height: 80px;
+}
+#sec2 p {
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  color: rgb(8, 8, 8);
+}
